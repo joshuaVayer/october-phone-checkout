@@ -7,17 +7,19 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "npx tsc",
+    "build": "yarn tsc",
     "start": "node dist/app.js",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/app.js\""
+    "dev": "concurrently \"yarn tsc --watch\" \"nodemon -q dist/app.js\""
   },
   "dependencies": {
     "@types/chalk": "^2.2.0",
+    "axios": "^0.27.2",
     "body-parser": "^1.20.0",
     "colors": "^1.4.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "google-search-results-nodejs": "^2.1.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
