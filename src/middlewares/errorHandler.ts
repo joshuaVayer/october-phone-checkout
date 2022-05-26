@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import logger from "../utils/logger";
 
 /**
@@ -7,7 +7,7 @@ import logger from "../utils/logger";
  * @param request - The request that was made.
  * @param response - The response that was sent.
  */
-const errorHandler = (error: Error, request: Request, response: Response) => {
+const errorHandler = (error: Error, request: Request, response: Response, next: NextFunction) => {
   logger.error(error.message);
 
   response.status(500).send({
@@ -18,6 +18,8 @@ const errorHandler = (error: Error, request: Request, response: Response) => {
       url: request.url
     }
   });
+
+  next(error);
 };
 
 export default errorHandler;

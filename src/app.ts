@@ -1,9 +1,9 @@
 // EXTERNAL DEPENDENCIES
 import dotenv from "dotenv";
-import express, { Application } from "express";
+import express, { Application, Response } from "express";
 
 // MODULES
-import Router from "./routes";
+import routes from "./routes";
 import config from "./config";
 import logger from "./utils/logger";
 import errorHandler from "./middlewares/errorHandler";
@@ -20,12 +20,15 @@ const app: Application = express();
 app.use(requestLogger);
 
 // REGISTER ROUTES
-app.use(Router);
+app.use(routes);
+app.use((_, res: Response) => {
+  res.status(404).send(config.NOT_FOUND);
+});
 
 // ERROR HANDLER
 app.use(errorHandler);
 
 // RUN RUN RUN 🚀
 app.listen(PORT, () => {
-  logger.info(config.texts.serverStarted(PORT));
+  logger.info(config.texts.serverStarted);
 });
