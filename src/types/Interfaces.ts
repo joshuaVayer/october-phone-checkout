@@ -2,16 +2,9 @@ import { Request } from "express";
 
 export interface SearchRequest extends Request {
   query: {
-    company: string;
-    registrationNumber: string;
-    location?: string;
-    providers: {
-      google?: {
-        knowledge_graph?: {
-          téléphone?: string;
-        };
-      };
-    };
+    postalCode?: string;
+    companyName?: string;
+    registrationNumber?: string;
   },
 }
 
@@ -20,4 +13,22 @@ export interface SerpApiGoogleAnswer {
     title?: string;
     téléphone?: string;
   };
+}
+
+export interface SocieteInfoCompanyAnswer {
+  success: boolean;
+  result?: {
+    contacts?: {
+      phones?: object[];
+    };
+  };
+}
+
+export interface SearchResultByRegistrationNumber {
+  success: boolean;
+  result?: {
+    phones?: object[];
+  };
+  status?: string;
+  error_provider?: string;
 }

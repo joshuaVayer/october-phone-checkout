@@ -1,0 +1,424 @@
+{
+  "success": true,
+  "result": {
+      "id": "58795770b3a280671763bdd9",
+      "organization": {
+          "status": "Active",
+          "risk": {
+              "risk_level": 0.0,
+              "risk_level_description": "Pas de risque identifié",
+              "collective_procedure_in_progress": false,
+              "collective_procedures": [],
+              "legal_source_organization_statuses": [
+                  {
+                      "source_name": "Bodacc",
+                      "organization_status": "Active"
+                  }
+              ]
+          },
+          "creation_date": "1975-01-01",
+          "capital": "300000",
+          "registration_number": "303830244",
+          "full_registration_number": "30383024400024",
+          "vat_number": "FR77303830244",
+          "greffe_name": "Annecy",
+          "name": "EXPERDECO",
+          "acronym_name": "AN",
+          "activity": {
+              "ape_code": "2562A",
+              "ape_code_level1": "C5",
+              "ape_code_level2": "CH",
+              "ape_code_level3": "25",
+              "ape_code_level4": "C25D",
+              "ape_code_level5": "2562A",
+              "ape_name": "Décolletage",
+              "corporate_object": "Décolletage"
+          },
+          "legal": {
+              "name": "Société par actions simplifiée",
+              "code_level1": "5",
+              "code_level2": "57",
+              "code_level3": "5710",
+              "person_type": "LegalEntity",
+              "type": "Siege"
+          },
+          "convention_collective": {
+              "code": "0836",
+              "name": "Convention collective départementale des industries métallurgiques, mécaniques, électriques, connexes et similaires de la Haute-Savoie"
+          },
+          "address": {
+              "street": "70 ROUTE GIFFRE",
+              "postal_code": "74970",
+              "city": "MARIGNIER",
+              "country_code": "FR",
+              "country": "FRANCE",
+              "lng": 6.5,
+              "lat": 46.0901
+          },
+          "insee_category": {
+              "code": "NON_DEFINIE",
+              "name": "Non définie"
+          },
+          "last_legal_update_date": "2021-10-27",
+          "establishments_count": 0
+      },
+      "contacts": {
+          "main_corporate_officier": {
+              "lastName": "COTEST",
+              "name": "COTEST",
+              "role": "Président",
+              "role_start_date": "2018-06-29",
+              "role_end_date": "",
+              "company": true,
+              "registration_number": "520186495"
+          },
+          "corporate_officiers": [
+              {
+                  "lastName": "COTEST",
+                  "name": "COTEST",
+                  "role": "Président",
+                  "role_start_date": "2018-06-29",
+                  "role_end_date": "",
+                  "company": true,
+                  "registration_number": "520186495"
+              },
+              {
+                  "firstName": "Hervé",
+                  "lastName": "KRUGER",
+                  "name": "Hervé KRUGER",
+                  "role": "Commissaire aux comptes suppléant",
+                  "role_start_date": "2018-06-29",
+                  "role_end_date": "",
+                  "company": false
+              },
+              {
+                  "lastName": "SA AVVENS GALET OLDRA",
+                  "name": "SA AVVENS GALET OLDRA",
+                  "role": "Commissaire aux comptes titulaire",
+                  "role_start_date": "2018-06-29",
+                  "role_end_date": "",
+                  "company": false
+              }
+          ],
+          "email": "contact@experdeco.com",
+          "emails": [
+              {
+                  "value": "contact@experdeco.com",
+                  "type": "generic"
+              }
+          ],
+          "phones": [
+              {
+                  "value": "04 50 34 63 54"
+              }
+          ]
+      },
+      "web_infos": {
+          "logo_url": "https://logo.clearbit.com/experdeco.com",
+          "website_url": "http://www.experdeco.com/",
+          "websites": [
+              {
+                  "domain": "experdeco.com",
+                  "url": "http://www.experdeco.com/",
+                  "webmaster_email": "cg@proit.fr",
+                  "webmaster_phone": "06 01 77 19 74",
+                  "metadata": {
+                      "owner_registration_number": "303830244",
+                      "website_crawl_date": "2022-04-14",
+                      "domain_creation_date": "2005-01-20"
+                  }
+              }
+          ],
+          "linkedin": {
+              "url": "https://www.linkedin.com/company/experdeco/",
+              "id": "experdeco",
+              "tech_id": "25866063",
+              "name": "EXPERDECO",
+              "description": "EXPERDECO is a machinery company based out of 70 ROUTE DU GIFFRE, MARIGNIER, France.",
+              "follower_count": 4,
+              "crawl_date": "2022-04-28"
+          },
+          "twitter": {},
+          "facebook": {},
+          "wikipedia": {},
+          "youtube": {},
+          "instagram": {}
+      },
+      "financials": {
+          "last_sales": 2311237.0,
+          "last_profit": -93889.0,
+          "last_staff": 10,
+          "years": [
+              {
+                  "year": "2020",
+                  "sales": 2311237.0,
+                  "profit": -93889.0,
+                  "staff": 10,
+                  "closing_date": "2020-12-31",
+                  "sales_metadata": {
+                      "estimated": false
+                  },
+                  "profit_metadata": {
+                      "estimated": false
+                  },
+                  "staff_metadata": {
+                      "estimated": true
+                  }
+              },
+              {
+                  "year": "2019",
+                  "sales": 2749971.0,
+                  "profit": 2683.0,
+                  "staff": 12,
+                  "closing_date": "2019-12-31",
+                  "sales_metadata": {
+                      "estimated": false
+                  },
+                  "profit_metadata": {
+                      "estimated": false
+                  },
+                  "staff_metadata": {
+                      "estimated": false
+                  }
+              },
+              {
+                  "year": "2018",
+                  "sales": 2197042.0,
+                  "profit": 9472.0,
+                  "staff": 12,
+                  "closing_date": "2018-12-31",
+                  "sales_metadata": {
+                      "estimated": false
+                  },
+                  "profit_metadata": {
+                      "estimated": false
+                  },
+                  "staff_metadata": {
+                      "estimated": false
+                  }
+              },
+              {
+                  "year": "2017",
+                  "sales": 2017698.0,
+                  "profit": 124209.0,
+                  "staff": 12,
+                  "closing_date": "2017-12-31",
+                  "sales_metadata": {
+                      "estimated": false
+                  },
+                  "profit_metadata": {
+                      "estimated": false
+                  },
+                  "staff_metadata": {
+                      "estimated": false
+                  }
+              },
+              {
+                  "year": "2016",
+                  "sales": 1862054.0,
+                  "profit": -16446.0,
+                  "staff": 14,
+                  "closing_date": "2016-11-30",
+                  "sales_metadata": {
+                      "estimated": false
+                  },
+                  "profit_metadata": {
+                      "estimated": false
+                  },
+                  "staff_metadata": {
+                      "estimated": false
+                  }
+              },
+              {
+                  "year": "2015",
+                  "sales": 2138742.0,
+                  "profit": 130990.0,
+                  "staff": 16,
+                  "closing_date": "2015-12-31",
+                  "sales_metadata": {
+                      "estimated": false
+                  },
+                  "profit_metadata": {
+                      "estimated": false
+                  },
+                  "staff_metadata": {
+                      "estimated": true
+                  }
+              },
+              {
+                  "year": "2014",
+                  "sales": 2192833.0,
+                  "profit": 100137.0,
+                  "staff": 16,
+                  "closing_date": "2014-12-31",
+                  "sales_metadata": {
+                      "estimated": false
+                  },
+                  "profit_metadata": {
+                      "estimated": false
+                  },
+                  "staff_metadata": {
+                      "estimated": true
+                  }
+              },
+              {
+                  "year": "2013",
+                  "sales": 1972151.0,
+                  "profit": 46752.0,
+                  "staff": 15,
+                  "closing_date": "2013-12-31",
+                  "sales_metadata": {
+                      "estimated": false
+                  },
+                  "profit_metadata": {
+                      "estimated": false
+                  },
+                  "staff_metadata": {
+                      "estimated": true
+                  }
+              }
+          ],
+          "last_staff_sources": [
+              {
+                  "source": "RncsBILANS",
+                  "value": 12.0,
+                  "date": "2017-01-01",
+                  "estimated": false
+              },
+              {
+                  "source": "Sirene",
+                  "range_value": "10-19",
+                  "date": "2018-01-01",
+                  "estimated": true
+              },
+              {
+                  "source": "Infogreffe",
+                  "value": 0.0,
+                  "date": "2017-01-01",
+                  "estimated": false
+              },
+              {
+                  "source": "Linkedin",
+                  "field": "employees_range",
+                  "range_value": "11-50",
+                  "date": "2022-04-28",
+                  "estimated": false
+              },
+              {
+                  "source": "Linkedin",
+                  "field": "employees_count",
+                  "value": 3.0,
+                  "date": "2022-04-28",
+                  "estimated": false
+              }
+          ]
+      },
+      "mark_infos": {},
+      "last_bodacc": {
+          "type": "Bodacc",
+          "bodacc_type": "Avis de dépôts des comptes des sociétés",
+          "parution_date": "2021-11-25",
+          "number": "7664",
+          "rcs_name": "303830244 RCS Annecy",
+          "legal_name": "EXPERDECO",
+          "legal_status": "Société par Actions Simplifiée",
+          "address": "70 Route Du Giffre 74970 Marignier",
+          "balance_sheet_close_date": "2020-12-31",
+          "balance_sheet_deposit_type": "Comptes annuels et rapports"
+      },
+      "actes": [
+          {
+              "date": "2018-05-23",
+              "type": "Document relatif au bénéficiaire effectif",
+              "description": "Régularisation bénéficiaire effectif"
+          },
+          {
+              "date": "2017-06-22",
+              "type": "Rapport du commissaire aux comptes",
+              "description": "Modification de la forme juridique ou du statut particulier Sté pluripersonnelle devient  unipersonnelle Modification relative aux dirigeants d'une société"
+          },
+          {
+              "date": "2017-06-22",
+              "type": "Procès-verbal d'assemblée générale extraordinaire",
+              "description": "Modification de la forme juridique ou du statut particulier Sté pluripersonnelle devient  unipersonnelle Modification relative aux dirigeants d'une société"
+          },
+          {
+              "date": "2017-06-22",
+              "type": "Statuts mis à jour",
+              "description": "Modification de la forme juridique ou du statut particulier Sté pluripersonnelle devient  unipersonnelle Modification relative aux dirigeants d'une société"
+          },
+          {
+              "date": "2017-06-22",
+              "type": "Rapport du commissaire aux comptes",
+              "description": "Modification de la forme juridique ou du statut particulier Sté pluripersonnelle devient  unipersonnelle Modification relative aux dirigeants d'une société"
+          },
+          {
+              "date": "2017-06-22",
+              "type": "Procès-verbal d'assemblée générale extraordinaire",
+              "description": "Modification de la forme juridique ou du statut particulier Sté pluripersonnelle devient  unipersonnelle Modification relative aux dirigeants d'une société"
+          },
+          {
+              "date": "2017-06-22",
+              "type": "Statuts mis à jour",
+              "description": "Modification de la forme juridique ou du statut particulier Sté pluripersonnelle devient  unipersonnelle Modification relative aux dirigeants d'une société"
+          },
+          {
+              "date": "2017-02-09",
+              "type": "Extrait de procès-verbal d'assemblée générale ordinaire",
+              "description": "Modification relative aux dirigeants d'une société"
+          },
+          {
+              "date": "2017-02-09",
+              "type": "Procès-verbal d'assemblée générale ordinaire",
+              "description": "Modification relative aux dirigeants d'une société"
+          },
+          {
+              "date": "2017-02-09",
+              "type": "Procès-verbal du conseil d'administration",
+              "description": "Modification relative aux dirigeants d'une société"
+          },
+          {
+              "date": "2017-01-17",
+              "type": "Procès-verbal d'assemblée générale extraordinaire",
+              "description": "Prorogation exceptionnelle de la date de cloture de l'exercice social"
+          },
+          {
+              "date": "2007-08-31",
+              "type": "Procès-verbal d'assemblée",
+              "description": "Modification des commissaires aux comptes"
+          },
+          {
+              "date": "2000-11-08",
+              "type": "Statuts mis à jour"
+          },
+          {
+              "date": "2000-11-08",
+              "type": "Procès-verbal du conseil d'administration"
+          },
+          {
+              "date": "2000-11-08",
+              "type": "Procès-verbal d'assemblée"
+          },
+          {
+              "date": "2000-11-08",
+              "type": "Divers"
+          },
+          {
+              "date": "2000-11-08",
+              "type": "Procès-verbal d'assemblée"
+          },
+          {
+              "date": "2000-10-23",
+              "type": "Divers"
+          },
+          {
+              "date": "1999-10-29",
+              "type": "Procès-verbal d'assemblée"
+          },
+          {
+              "date": "1999-10-29",
+              "type": "Statuts mis à jour"
+          }
+      ]
+  }
+}

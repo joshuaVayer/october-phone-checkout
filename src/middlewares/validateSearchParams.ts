@@ -10,8 +10,8 @@ import { isValidRegistrationNumber } from "../utils/searchParams";
  * @param next - The next function to call.
  */
 const validateSearchParams = async (request: SearchRequest, response: Response, next: NextFunction) => {
-  const { registrationNumber, company } = request.query;
-  if (!registrationNumber && !company) {
+  const { registrationNumber } = request.query;
+  if (!registrationNumber) {
     return response.status(400).send({
       status: "error",
       message: "Missing registrationNumber or company"

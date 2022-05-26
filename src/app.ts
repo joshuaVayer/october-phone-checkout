@@ -1,4 +1,5 @@
 // EXTERNAL DEPENDENCIES
+import path from "path";
 import dotenv from "dotenv";
 import express, { Application, Response } from "express";
 
@@ -10,7 +11,9 @@ import errorHandler from "./middlewares/errorHandler";
 import requestLogger from "./middlewares/requestLogger";
 
 // ENV VARIABLES
-dotenv.config();
+const envPath: string = path.join(__dirname, "..", ".env");
+dotenv.config({ path: envPath });
+
 const { PORT } = config;
 
 // APP INITIALIZATION
