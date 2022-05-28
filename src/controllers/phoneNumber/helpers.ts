@@ -24,7 +24,7 @@ export const searchByRegistrationNumber = (registrationNumber: string): Promise<
       .catch(err => {
         if (err.response) {
           const { status, data = {} }: { status: number, data: object } = err.response;
-          if (status === 400 || status === 404) {
+          if (status === 400 || status === 404 || status === 401) {
             resolve(
               {
                 success: false,
