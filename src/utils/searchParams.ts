@@ -12,8 +12,6 @@ export const isValidRegistrationNumber = async (registrationNumber: string): Pro
   // Check using the official french API
   const checkViaApi = await RechercheEntreprise.byRegistrationNumber(registrationNumber)
     .then(({ data }) => {
-      console.log(data.total_results === 1);
-
       if (data && data.total_results) return data.total_results === 1;
       else return false;
     })

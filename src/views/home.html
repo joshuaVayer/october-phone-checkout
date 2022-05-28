@@ -1,39 +1,13 @@
-# october-phone-checkout
-
-Express.js server built with typescript and node.js.
-
-## Installation
-
-1. Clone the repo
-
-   ```sh
-   git clone git@github.com:joshuaVayer/october-phone-checkout.git
-   cd october-phone-checkout
-   ```
-
-2. Install dependencies.
-
-   ```sh
-   yarn install
-   ```
-
-3. Run the server.
-
-    ```sh
-    yarn dev
-    ```
-
-    OR
-
-    ```sh
-    yarn build && yarn start
-    ```
-4. Add your .env file to the root of the project.
-   ```
-   PORT=8080
-   SOCIETE_INFO_API_KEY=DEMO
-   ```
-   You can generate your own Societe Info API key at [https://societeinfo.com/](https://societeinfo.com/)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone number lookup</title>
+</head>
+<body>
+  <h1>Phone number lookup - Documentation</h1>
   <hr>
   <div>
     <h2>Usage :</h2>
@@ -74,25 +48,28 @@ Express.js server built with typescript and node.js.
     <h2>Response :</h2>
     <p>
       The succcessfull response will be a JSON with the following shape:
-      <div>
-         <code >
-            {
-               "success": true,
-               "status": "success",
-               "search_strategy": "company_name",
-               "result": {
-               "phones": [
-                  {
-                     "value": "01 43 14 00 30"
-                  },
-                  {
-                     "value": "06 89 97 55 79"
-                  }
-               ]
-               }
+      <code>
+        <pre style="background-color:beige">
+
+          {
+            "success": true,
+            "status": "success",
+            "search_strategy": "company_name",
+            "result": {
+              "phones": [
+                {
+                  "value": "01 43 14 00 30"
+                },
+                {
+                  "value": "06 89 97 55 79"
+                }
+              ]
             }
-         </code>
-      </div>
+          }
+        </pre>
+      </code>
     </p>
     <p>If you get too many results after providing only the company name the server will return the corresponding hits. You will then be able to retry, adding the postal code for example or with a more precise name </p>
   </div>
+</body>
+</html>

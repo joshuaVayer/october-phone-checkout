@@ -1,6 +1,6 @@
 import { Request } from "express";
 
-export interface SearchRequest extends Request {
+export interface RequestWithQuery extends Request {
   query: {
     postalCode?: string;
     companyName?: string;
@@ -23,11 +23,18 @@ export interface SocieteInfoCompanyAnswer {
     };
   };
 }
-
-export interface SearchResultByRegistrationNumber {
+export interface RechercheEntrepriseQueryAnswer {
+  total_results: number;
+  results?: {
+    siren?: string;
+  }[];
+}
+export interface APIOutput {
   success: boolean;
+  hint?: string;
   result?: {
     phones?: object[];
+    hits?: object[];
   };
   status?: string;
   error_provider?: string;

@@ -1,6 +1,11 @@
 import "dotenv/config";
 import axios from "axios";
 
+/**
+ * Service relative to the search of companies via the Societe Info API.
+ * Documentation: https://societeinfo.com/api-doc/
+ */
+
 class SocieteInfo {
   byRegistrationNumber (registrationNumber: string): Promise<any> {
     return axios.get(
